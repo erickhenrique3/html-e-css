@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes <br>
+      ou simplismente aumente ou diminua o tamanho do seu navegador.</p>
+
+      <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotos-p"typer="imagem/">
+        <source media="(max-width:1050px)" srcset="imagens/fotos-m.png" typer="imagem/">
+        <img src="imagens/fotos-g.png" alt="imagem flexivel">
+      </picture>
+      <h1>Reproduzindo audio </h1>
+      <p>Vamos apreder a reproduzir audios em HTML5.</p>
+       <audio controls autoplay src="midias/vitor vaqueiro.mp3"></audio>
+</body>
+</html>
