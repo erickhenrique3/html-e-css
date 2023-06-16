@@ -4,6 +4,7 @@
     font-family:'Share Tech', sans-serif; 
 }
 body{
+  
     overflow-x: hidden;
 }
 
@@ -14,21 +15,27 @@ header{
     box-shadow: 2px 2px color(rgba(0, 0, 0, 0.445) );
 }
 
+
+
    
 main h2{
     text-align: center;
     margin: 10px;
     font-size: 66px;
 }
-.box{
-    position: relative;
-    left: 600px;
+.box-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 .wraper{
+    
     position: relative;
-    width: 600px;
+    width: 50vw;
     height: 440px;
     margin: 30px;
     background:  transparent;
