@@ -42,6 +42,7 @@ main{
 }
 article > h2{
     padding-bottom: 10px;
+    text-align: center;
 }
 article > p{
     text-align: justify;
